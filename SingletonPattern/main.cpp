@@ -1,4 +1,4 @@
-//-- Example templated Singleton design pattern using popular Meyer's method
+//-- Example templated Singleton design pattern using popular Meyers method
 //-- Created by Kim Kane www.khimleesi.com
 
 //-- The Singleton class is not to be instantiated directly, it is a skeleton for Implementer classes only
