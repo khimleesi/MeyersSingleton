@@ -4,7 +4,7 @@
 //-- The Singleton class is not to be instantiated directly, it is a skeleton for Implementer classes only
 //-- Thread safe providing C++11 onwards, using lazy initialization, static Implementer& instance variable initialized upon first function call
 //-- Not inherited as we don't want derived classes to be able to create instances of their own
-//-- We make a Implementer class a friend of Singleton e.g. friend class Singleton<InputManager> where InputManager is the Implementer
+//-- We make the Singleton class a friend of the Implementer class e.g. friend class Singleton<InputManager> where InputManager is the Implementer
 
 #include "Test.h"
 
